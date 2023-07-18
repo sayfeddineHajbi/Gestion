@@ -25,6 +25,8 @@ public class User {
     @JoinColumn(name = "roles_id")
     private Role role;
 
+
+
 //    @OneToOne
 //    @JoinColumn(name = "profil_id")
 //    private Profi profil;

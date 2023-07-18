@@ -4,5 +4,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface Functionality extends JpaRepository<com.example.gestioncommerciale.entities.Functionality,Long> {
+public interface PersonnelRepository extends JpaRepository<com.example.gestioncommerciale.entities.Personnel,Long> {
 }
